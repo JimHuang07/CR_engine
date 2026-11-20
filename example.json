@@ -1,0 +1,65 @@
+{
+  "hand": [
+    "Cannon",
+    "Skeletons",
+    "Ice Spirit",
+    "Fireball"
+  ],
+  "nextCard": "Knight",
+  "elixir": 4,
+  "candidates": [
+    {
+      "label": "Hold elixir",
+      "plays": [],
+      "towerDamage": 900
+    },
+    {
+      "label": "Cannon",
+      "plays": [
+        {
+          "card": "Cannon",
+          "cost": 3
+        }
+      ],
+      "towerDamage": 150
+    },
+    {
+      "label": "Skeletons into Knight",
+      "plays": [
+        {
+          "card": "Skeletons",
+          "cost": 1
+        },
+        {
+          "card": "Knight",
+          "cost": 3
+        }
+      ],
+      "towerDamage": 0
+    },
+    {
+      "label": "Knight immediately",
+      "plays": [
+        {
+          "card": "Knight",
+          "cost": 3
+        }
+      ],
+      "towerDamage": 0
+    },
+    {
+      "label": "Cannon into Fireball",
+      "plays": [
+        {
+          "card": "Cannon",
+          "cost": 3
+        },
+        {
+          "card": "Fireball",
+          "cost": 4
+        }
+      ],
+      "towerDamage": 0
+    }
+  ]
+}
